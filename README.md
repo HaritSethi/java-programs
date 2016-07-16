@@ -1,4 +1,7 @@
-# java-program 1
+# java-programs
+
+java program 1
+
 import java.util.*;
 class a1{
   public static void main(String[] args){
@@ -73,3 +76,332 @@ public class a7 {
 ______________________________________________________________
 
 java program 6
+
+
+public class a9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double a=8.2;
+int b =6;
+double c;
+c=a*b;
+System.out.println("value of c :" + c);
+	}
+
+}
+
+
+____________________________________________________
+
+java program 7
+
+
+public class a10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+char a='z';
+int b=0;
+System.out.println(a+b);
+	}
+
+}
+
+
+________________________________________________
+
+java program 8
+
+
+public class a11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double a;
+		a=100.235;
+		System.out.println("value of a :" + (int)a);
+
+	}
+
+}
+
+
+_________________________________________________________
+
+java program 9
+
+
+public class a12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+char a='d';
+int b=3;
+System.out.println("result is: " + (a+b));
+	}
+
+}
+
+
+________________________________________________
+
+java program 10
+
+
+public class a15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int len=7, bred=5;
+int ar, per;
+ar=len*bred;
+per=len+bred;
+System.out.println("area of rectangle is :"+ ar);
+System.out.println("perimeter of rectangle is :"+ per);
+	}
+
+}
+
+________________________________________________________
+
+java program 11
+
+
+public class a17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num=2345;
+num+=8;
+num/=3;
+num%=5;
+num*=5;
+System.out.println("result is :"+ num);
+	}
+
+}
+
+__________________________________________________
+
+java program 12
+
+
+public class a23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=6, b=8;
+int c=a;
+a=b;
+b=c;
+System.out.println("values of a and b are " + a + " & "+ b);
+
+	}
+
+}
+
+_______________________________________________________
+
+java program 13
+
+
+public class a24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=6, b=8;
+a=a+b;
+b=a-b;
+a=a-b;System.out.println("a is :" +a+ "b is :" +b);
+	}
+
+}
+
+
+______________________________________________
+
+java program 14
+
+import java.util.*;
+public class a25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double f, c;
+System.out.println("enter the temp");
+Scanner s=new Scanner(System.in);
+f=s.nextDouble();
+c=(f-32)/(1.8);
+System.out.println("temp in celsius is :"+ c);
+	}
+
+}
+
+
+___________________________________________
+
+java program 15
+
+
+
+public class a26 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int t=90, b=45, g, a, ab=20, ag;
+g=t-b;
+a=t/2;
+ag=a-ab;
+System.out.println("total numbers of girls with grade a are :" +ag);
+	}
+
+}
+
+________________________________________________
+
+
+java-program-16
+
+import java.util.*;
+public class a27 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a, b, sum, prod, prod2;
+System.out.println("enter first integer :");
+Scanner s1= new Scanner(System.in);
+a=s1.nextInt();
+
+System.out.println("enter second integer :");
+Scanner s2=new Scanner(System.in);
+b=s2.nextInt();
+
+sum=a+b;
+prod=a*b;
+System.out.println("sum is :"+sum + " product is"+prod );
+System.out.println(sum*prod);
+	}
+}
+
+
+________________________________________________
+
+java program 17
+
+import java.util.*;
+public class a28 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+float l, b;
+int area;
+System.out.println("enter the length");
+Scanner s1=new Scanner(System.in);
+l=s1.nextFloat();
+System.out.println("enter the breadth");
+Scanner s2=new Scanner(System.in);
+b=s2.nextFloat();
+
+area = (int)(l*b);
+System.out.println("area of the rectangle is " + area);
+
+	}
+
+}
+
+
+___________________________________________________
+
+java program 18
+
+import java.util.*;
+public class a29 {
+	public static void main(String[] args){
+	
+		System.out.println("enter your name :");
+		Scanner s1=new Scanner(System.in);
+		String name=s1.nextLine();
+		
+		System.out.println("enter your roll number :");
+		Scanner s2=new Scanner(System.in);
+		int rollno=s2.nextInt();
+		
+		System.out.println("enter your field of interest :");
+		Scanner s3=new Scanner(System.in);
+		String field=s3.nextLine();
+		
+		System.out.println("Hey, my name is "+ name + " and my roll number is "+ rollno +". My field of interest is "+ field +".");
+	}
+
+}
+
+___________________________________________________________
+
+java program 19
+
+import java.util.*;
+public class a30 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the side of the square");
+Scanner s1=new Scanner(System.in);
+int a=s1.nextInt();
+int area=a*a;
+System.out.println("area of the square is :" + area);
+	
+	}
+
+}
+
+
+______________________________________________________
+
+java program 20
+
+import java.util.*;
+public class a31 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter first string :");
+Scanner s1=new Scanner (System.in);
+String a=s1.nextLine();
+
+System.out.println("enter second string :");
+Scanner s2=new Scanner (System.in);
+String b=s2.nextLine();
+
+System.out.println("new string is " +a +" " +b);
+	}
+
+}
+
+_____________________________________________
+
+java program 21
+
+import java.util.*;
+public class a32 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter marks 1 :");
+Scanner s1=new Scanner(System.in);
+int marks1=s1.nextInt();
+
+System.out.println("enter marks 2 :");
+Scanner s2=new Scanner(System.in);
+int marks2=s2.nextInt();
+
+System.out.println("enter marks 3 :");
+Scanner s3=new Scanner(System.in);
+int marks3=s3.nextInt();
+
+System.out.println("total marks are :" + (marks1+marks2+marks3) + "\n percentage is :" + ((marks1+marks2+marks3)/3) );
+	}
+
+}
+
+
