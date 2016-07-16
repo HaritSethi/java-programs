@@ -586,3 +586,51 @@ _____________________________________
 
 java program 28
 
+import java.util.*;
+public class a39 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the number :");
+Scanner s1=new Scanner(System.in);
+int n =s1.nextInt();
+if(n>0){
+	System.out.println("output is :"+n);
+}
+else{
+	System.out.println("output is :"+(-1*n));
+}
+	}
+
+}
+
+
+______________________________________________________
+
+java program 29
+
+import java.util.*;
+public class a40 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner s1=new Scanner(System.in);
+System.out.println("enter total classes held :");
+int h=s1.nextInt();
+
+Scanner s2=new Scanner(System.in);
+System.out.println("enter classes attended :");
+int a=s2.nextInt();
+int per;
+per= (a*100)/h;
+
+System.out.println("percentage of classes is :"+ per);
+if(per>=75)
+	System.out.println("student can sit in exam.");
+else
+	System.out.println("Student cannot sit in exam.");
+	}
+
+}
+
+__________________________________________________________
