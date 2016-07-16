@@ -555,3 +555,34 @@ ____________________________________
 
 java program 27
 
+import java.util.*;
+public class a38 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the ages :");
+Scanner s1= new Scanner(System.in);
+int age1=s1.nextInt();
+Scanner s2=new Scanner(System.in);
+int age2=s2.nextInt();
+Scanner s3=new Scanner(System.in);
+int age3=s3.nextInt();
+
+if(age1>age2 && age1>age3){
+	System.out.println("Ist person is the oldest");
+}
+if(age2>age1 && age2>age3){
+	System.out.println("IInd person is the oldest");
+	
+}
+if (age3>age1 &&age3>age2){
+	System.out.println("IIIrd person is the oldest");
+}
+	}
+
+}
+
+_____________________________________
+
+java program 28
+
