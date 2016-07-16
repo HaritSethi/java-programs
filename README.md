@@ -405,3 +405,153 @@ System.out.println("total marks are :" + (marks1+marks2+marks3) + "\n percentage
 }
 
 
+________________________________________
+
+java program 22
+
+import java.util.*;
+public class a33 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the length :");
+Scanner s1=new Scanner(System.in);
+int len =s1.nextInt();
+
+System.out.println("enter the breadth :");
+Scanner s2=new Scanner(System.in);
+int bred =s2.nextInt();
+
+if(len==bred){
+System.out.println("it is a square");
+}
+else{
+	
+
+	System.out.println("it ia a rectangle");
+
+	}
+	}
+
+}
+
+________________________________________________
+
+jva program 23
+
+import java.util.*;
+public class a34 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the two integers :");
+Scanner s1=new Scanner(System.in);
+Scanner s2=new Scanner(System.in);
+int a=s1.nextInt();
+int b=s2.nextInt();
+if(a>b){
+	System.out.println("a is greater than b");
+	
+}
+else{
+	System.out.println("b is greater than a");
+}
+	}
+
+}
+
+_________________________________________
+
+java program 24
+
+import java.util.*;
+public class a35 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the number of the units purchased :");
+Scanner s1=new Scanner(System.in);
+int n=s1.nextInt();
+if((100*n)>1000){
+System.out.println("total price :"+(100*n*9/10));	
+}
+else{
+	System.out.println("total price :"+(100*n));
+}
+	}
+
+}
+
+__________________________________________
+
+java progrsm 25
+
+import java.util.*;
+class a36 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the salary :");
+Scanner s1=new Scanner(System.in);
+int sal =s1.nextInt();
+
+System.out.println("enter the year of joining :");
+Scanner s2=new Scanner(System.in);
+int year=s2.nextInt();
+if(year<2012){
+	System.out.println("net bonus :"+(sal/20));
+			}
+else{
+		System.out.println("no bonus");
+	}
+
+	}
+
+}
+
+______________________________________
+
+java program 26
+
+import java.util.*;
+public class a37 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter the marks :");
+Scanner s1=new Scanner(System.in);
+int marks=s1.nextInt();
+char grad=0;
+if(marks<25){
+grad ='F';
+}
+if(marks>=25 && marks<40){
+	grad='E';
+	
+}
+if(marks>=40 && marks<50){
+	grad='D';
+	
+}
+if(marks>=50 && marks<60){
+	grad='C';
+	
+}
+if(marks>=60 && marks<80){
+	grad='B';
+	
+}
+if(marks>=80 && marks<=100){
+	grad='A';
+	
+}
+System.out.println(grad);
+
+	}
+
+}
+
+____________________________________
+
+java program 27
+
