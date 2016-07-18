@@ -634,3 +634,49 @@ else
 }
 
 __________________________________________________________
+
+java program 30
+
+import java.util.*;
+public class abc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double cm;
+		int feet, inches, remainder;
+		final double CM_PER_INCH=2.54;
+		final int INCH_PER_FEET=12;
+		Scanner s1=new Scanner(System.in);
+		System.out.println("enter how many cms :");
+		cm=s1.nextDouble();
+		inches=(int)(cm/CM_PER_INCH);
+		feet=inches/INCH_PER_FEET;
+		remainder=inches%INCH_PER_FEET;
+		System.out.print(cm+"cm= "+feet+"feet "+remainder+"inches");
+	}
+
+}
+___________________________________________
+
+java program 31
+
+import java.util.*;
+public class a1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int sum;
+System.out.println("enter a 3 digit number :");
+Scanner s1=new Scanner (System.in);
+int n =s1.nextInt();
+sum=(n/100)+((n%100)/10)+(n%10);
+System.out.println("sum of digits :" +sum);
+	}
+
+}
+
+
+___________________________________________
+
+java program 32
+
