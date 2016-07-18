@@ -724,3 +724,129 @@ ___________________________________________________________
 
 java program 34
 
+import java.util.*;
+public class a3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter a 5 digit number :");
+Scanner s1=new Scanner(System.in);
+int n=s1.nextInt();
+int sum;
+//sum of first digit and second last digit
+sum=(n/10000)+((n%100)/10);
+System.out.println("sum is :"+sum);
+	}
+
+}
+
+
+_________________________________________________________
+
+java program 35
+
+import java.util.*;
+public class a4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.print("enter the year :");
+Scanner s1=new Scanner(System.in);
+int year=s1.nextInt();
+int remainder;
+remainder=year%4;
+if(remainder==0){
+	if(year%100==0 && year%400!=0)
+	System.out.println(year+" year is not leap year");	
+	if(year%100==0 && year%400==0)
+		System.out.println(year+" year is leap year");
+}
+else 
+System.out.println(year+" year is not leap year");
+}
+
+}
+
+
+__________________________________________________________
+
+java program 36
+
+import java.util.*;
+public class a5 {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+int fst, snd, trd, fth, revNum;
+System.out.println("enter a 4 digit number :");
+Scanner s1=new Scanner(System.in);
+int n=s1.nextInt();
+
+fst=n/1000;
+n=n%1000;
+
+snd=n/100;
+n=n%100;
+
+trd=n/10;
+n=n%10;
+
+fth=n;
+
+revNum=fth*1000+trd*100+snd*10+fst;
+
+System.out.println(revNum);
+	}
+
+}
+
+
+_________________________________________________________
+
+java program 37
+
+import java.util.*;
+public class a7 {
+	public static void zool(int a, String b, String c){
+		System.out.println(a+" "+b+" "+c);
+	}
+public static void main(String[] args){
+	int a=11;
+	Scanner s1=new Scanner(System.in);
+	System.out.print("enter ur pet name:");
+	String b=s1.nextLine();
+	System.out.print("enter ur street name :");
+	String c=s1.nextLine();
+	zool(a,b,c);
+	
+}
+}
+
+
+____________________________________________________________
+
+java program 38
+
+public class a6{
+public static void zoop() {
+baffle();
+System.out.print("You wugga ");
+baffle();
+}
+public static void main(String[] args) {
+System.out.print("No, I ");
+zoop();
+System.out.print("I ");
+baffle();
+}
+public static void baffle() {
+System.out.print("wug");
+ping();
+}
+public static void ping() {
+System.out.println(".");
+}
+}
+
+__________________________________________________________
+
