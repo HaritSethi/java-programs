@@ -680,3 +680,26 @@ ___________________________________________
 
 java program 32
 
+import java.util.*;
+public class a3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter a 5 digit number :");
+Scanner s1=new Scanner(System.in);
+int n=s1.nextInt();
+int sum;
+//sum of first digit and second last digit
+sum=(n/10000)+((n%100)/10);
+System.out.println("sum is :"+sum);
+	}
+
+}
+
+_________________________________________________
+
+
+java program 33
+
+
+
