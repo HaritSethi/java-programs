@@ -703,3 +703,24 @@ java program 33
 
 
 
+import java.util.*;
+public class a2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter a 3 digit number :");
+Scanner s1=new Scanner (System.in);
+int n=s1.nextInt();
+int revNum;
+revNum=100*(n%10)+((n%100)-(n%10))+(n/100);
+System.out.println(revNum);
+	}
+
+}
+
+
+___________________________________________________________
+
+
+java program 34
+
