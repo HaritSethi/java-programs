@@ -960,3 +960,55 @@ ______________________________________________________
 
 java program 42
 
+import java.util.Scanner;
+public class a13 {
+	public static int prod(int x,int y){
+	
+		return x*y;
+		
+	}
+	public static void main(String[] args) {
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter two numbers :");
+	int x=s.nextInt();
+	int y=s.nextInt();
+	prod(x,y);
+	System.out.println("product is " + (x*y));
+
+	}
+
+}
+
+
+______________________________________________________
+
+java program 43
+
+import java.util.*;
+public class a14 {
+	public static void circum(double r){
+	double cir=2*Math.PI*r;
+	System.out.println(cir);
+	}
+	public static void area(double r){
+		double ar=Math.PI*r*r;
+		System.out.println(ar);
+	}
+	public static void main(String args[]) {
+		// TODO Auto-generated method stub
+		System.out.println("enter the radius :");
+		Scanner s=new Scanner(System.in);
+		double r=s.nextDouble();
+
+		circum(r);
+		area(r);
+		
+	}
+
+}
+
+
+____________________________________________________
+
+java program 44
+
