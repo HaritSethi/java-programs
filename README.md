@@ -850,3 +850,113 @@ System.out.println(".");
 
 __________________________________________________________
 
+java program 38
+
+import java.util.*;
+public class a8 {
+	public static void main(String[] args){
+char sex='M';
+char mar='Y';
+System.out.println("enter ur age, sex(M/F), marital status(Y/N) :" );
+Scanner s1=new Scanner(System.in);
+int age=s1.nextInt();
+sex=s1.next().charAt(0);
+mar=s1.next().charAt(0);
+if(sex=='F'){
+	System.out.println("she will work only in urban areas.");
+}
+if(sex=='M'){
+	if(age>=20 && age<=40)
+		System.out.println("he may work anywhere.");
+	if(age>40 && age<=60)
+		System.out.println("he will work in urban areas only.");
+	else 
+		System.out.println("ERROR");
+	
+}
+
+	}
+}
+
+
+______________________________________________________
+
+java program 39
+
+import java.util.*;
+public class a9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i, n;
+double sum=0, avg;
+Scanner s=new Scanner(System.in);
+for(i=0;i<10;i++){
+	System.out.println("enter a number :");
+	n=s.nextInt();
+	sum=sum+n;
+}
+avg=sum/10;
+System.out.println("average is : " +avg);
+	}
+
+}
+
+
+_________________________________________________________
+
+java program 40
+
+import java.util.Scanner;
+
+public class a10 {
+
+	public static void countdown(int n) {
+		// TODO Auto-generated method stub
+
+if (n==0){
+	System.out.println("BLASTOFF!");
+	return;}
+	else
+	
+		System.out.println(n);
+		countdown(n-1);
+	}
+	public static void main(String[] args){
+		System.out.println("enter no. :");
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		countdown(n);
+	}
+
+}
+
+
+_____________________________________________________
+
+java program 41
+
+import java.util.*;
+public class a12 {
+	public static int sum(int x,int y){
+	
+		return x+y;
+		
+	}
+	public static void main(String[] args) {
+	Scanner s=new Scanner(System.in);
+	System.out.println("enter two numbers :");
+	int x=s.nextInt();
+	int y=s.nextInt();
+	sum(x,y);
+	System.out.println("sum is " + (x+y));
+
+	}
+
+}
+
+
+______________________________________________________
+
+java program 42
+
