@@ -1012,3 +1012,32 @@ ____________________________________________________
 
 java program 44
 
+import java.util.*;
+public class a11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=3, b=4, c=5, n;//a,b,c can be sides of right-angle triangle(pythagoraen triplet)
+Scanner s=new Scanner(System.in);
+System.out.println("Enter n");
+n=s.nextInt();
+if (n>2){
+	if(Math.pow(a,n)+Math.pow(b,n)==Math.pow(c, n))
+		System.out.println("holy smokes, Fermat was wrong");
+		else
+			System.out.println("no, that doesn't works");
+	
+}
+else{
+		System.out.println("invalid conidition");
+	}
+}
+	
+	}
+
+
+______________________________________________________________
+
+java program 45
+
+
