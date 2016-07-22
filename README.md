@@ -1041,3 +1041,47 @@ ______________________________________________________________
 java program 45
 
 
+import java.util.*;
+public class a15 {
+public static void max(int x, int y, int z){
+	if(x>y && x>z)
+		System.out.println(x);
+		
+	else if(y>x && y>z)
+	
+		System.out.println(y);
+		
+	else if(z>x && z>y)
+		System.out.println(z);
+}
+
+public static void min(int x, int y, int z){
+	if(x<y && x<z)
+		System.out.println(x);
+		
+	else if(y<x && y<z)
+	
+		System.out.println(y);
+		
+	else if(z<x && z<y)
+		System.out.println(z);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("enter three numbers :");
+Scanner s=new Scanner(System.in);
+int x=s.nextInt();
+int y=s.nextInt();
+int z=s.nextInt();
+max(x,y,z);
+min(x,y,z);
+	}
+
+}
+
+
+______________________________________________________
+
+
+java program 47
+
